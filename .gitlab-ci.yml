@@ -1,7 +1,3 @@
-stages:
-  - test
-
-test_job:
-  stage: test
+job:
   script:
-    - echo "Running tests..."  # Здесь можно указать команды для запуска тестов вашего проекта
+    - echo test
